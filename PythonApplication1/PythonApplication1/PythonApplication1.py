@@ -41,7 +41,6 @@ for x in szamok:
     if x<min1:
         min1=x
 print(min1)
-
 print(min(szamok))
 
 #maximum kiválasztás tétele
@@ -51,5 +50,42 @@ for x in szamok:
     if x>max1:
         max1=x
 print(max1)
-
 print(max(szamok))
+
+#órai feladat1
+list=[24,53,65,50,75,49,32,94,34,63]
+valt=0
+atlag=0
+for x in list:
+    atlag=sum(list)/len(list)
+print(atlag)
+
+min2=0
+for x in list:
+    if x<min2:
+        min2=x
+print(min(list))
+
+max2=100
+for x in list:
+    if x>max2:
+        max2=x
+print(max(list))
+
+vane =False
+for x in list:
+    if (x%2==0):
+        vane=True
+print(vane)
+
+otven =0
+for x in list:
+    if x>50:
+     otven=otven+x
+print(otven)
+
+kilenc =False
+for x in list:
+    if (x==9):
+        kilenc=True
+print(kilenc)
