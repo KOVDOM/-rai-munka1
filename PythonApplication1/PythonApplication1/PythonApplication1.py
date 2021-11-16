@@ -1,1 +1,2 @@
-print("Működik a GIT?")
+print("Működik a Git?")
+print("Mindjárt kiderül")
