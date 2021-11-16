@@ -89,3 +89,9 @@ for x in list:
     if (x==9):
         kilenc=True
 print(kilenc)
+
+kilenc1=0
+for x in list:
+    if (x==9):
+        kilenc1=kilenc1+0
+print(kilenc1)
